@@ -1,0 +1,7 @@
+*** Source Code ***
+1. Arduino (WeMos D1R1)
+ - https://github.com/dslab-ysj/2019samsung
+2. ARTIK
+ - https://github.com/dslab-ysj/2019samsung
+3. Gateway
+ - https://github.com/dslab-lws/RaspberryPi-Gateway
