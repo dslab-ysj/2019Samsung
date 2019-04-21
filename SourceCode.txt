@@ -5,3 +5,6 @@
  - https://github.com/dslab-ysj/2019samsung
 3. Gateway
  - https://github.com/dslab-lws/RaspberryPi-Gateway
+4. Sketch Off-line Setting
+ - C:\Users\DSLAB\AppData\Local/Arduino15 에 압축 풀기
+ - Driver Installation (https://github.com/dslab-ysj/2019samsung)
