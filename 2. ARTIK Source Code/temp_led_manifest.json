@@ -1,0 +1,35 @@
+{
+  "fields": [
+    {
+      "name": "Sensors",
+      "children": [
+        {
+          "name": "temperature",
+          "type": "CUSTOM",
+          "valueClass": "Double",
+          "isCollection": false,
+          "tags": [],
+          "isSensitive": false,
+          "unitSymbol": "กษ"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "setOn",
+      "description": "Set Green LED ON",
+      "parameters": [],
+      "isStandard": true,
+      "type": "CUSTOM"
+    },
+    {
+      "name": "setOff",
+      "description": "Set Green LED OFF",
+      "parameters": [],
+      "isStandard": true,
+      "type": "CUSTOM"
+    }
+  ],
+  "messageFormat": "json"
+}
