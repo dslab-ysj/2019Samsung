@@ -1,0 +1,372 @@
+pi@DSLAB_Gateway:~ $ netstat -p
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name     Path
+unix  4      [ ]         DGRAM                    10848    -                    /var/run/wpa_supplicant/wlan0
+unix  2      [ ]         DGRAM                    11114    462/systemd          /run/user/1000/systemd/notify
+unix  2      [ ]         DGRAM                    13093    722/lxpanel          /tmp/dhcpcd-pi/libdhcpcd-wpa-722.0
+unix  3      [ ]         DGRAM                    126      -                    /run/systemd/notify
+unix  2      [ ]         DGRAM                    12671    -                    /var/run/wpa_supplicant/p2p-dev-wlan0
+unix  2      [ ]         DGRAM                    13094    722/lxpanel          /tmp/dhcpcd-pi/libdhcpcd-wpa-722.1
+unix  2      [ ]         DGRAM                    128      -                    /run/systemd/cgroups-agent
+unix  12     [ ]         DGRAM                    139      -                    /run/systemd/journal/dev-log
+unix  7      [ ]         DGRAM                    146      -                    /run/systemd/journal/socket
+unix  2      [ ]         DGRAM                    154      -                    /run/systemd/journal/syslog
+unix  3      [ ]         STREAM     CONNECTED     11861    723/pcmanfm          
+unix  3      [ ]         STREAM     CONNECTED     11144    462/systemd          
+unix  3      [ ]         STREAM     CONNECTED     10222    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     14467    -                    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     7076     -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     14614    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     10073    -                    
+unix  3      [ ]         STREAM     CONNECTED     11954    778/gvfs-goa-volume  
+unix  2      [ ]         DGRAM                    12859    -                    
+unix  2      [ ]         STREAM     CONNECTED     13925    837/lxterminal       /run/user/1000/.lxterminal-socket-:0.0
+unix  3      [ ]         STREAM     CONNECTED     10023    -                    /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                    8510     -                    
+unix  3      [ ]         STREAM     CONNECTED     10021    -                    
+unix  3      [ ]         STREAM     CONNECTED     11225    -                    
+unix  3      [ ]         STREAM     CONNECTED     12661    -                    
+unix  3      [ ]         STREAM     CONNECTED     11976    837/lxterminal       
+unix  3      [ ]         STREAM     CONNECTED     13008    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     12721    479/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     10094    -                    
+unix  3      [ ]         STREAM     CONNECTED     11977    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     14628    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     12980    722/lxpanel          
+unix  3      [ ]         STREAM     CONNECTED     10093    -                    
+unix  3      [ ]         STREAM     CONNECTED     11871    756/menu-cached      
+unix  3      [ ]         STREAM     CONNECTED     11907    768/gvfs-udisks2-vo  
+unix  3      [ ]         STREAM     CONNECTED     12981    -                    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     13863    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     12921    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     11564    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     11953    778/gvfs-goa-volume  
+unix  3      [ ]         DGRAM                    8511     -                    
+unix  2      [ ]         STREAM     CONNECTED     23770    837/lxterminal       /run/user/1000/.lxterminal-socket-:0.0
+unix  3      [ ]         STREAM     CONNECTED     14456    695/gvfsd            
+unix  3      [ ]         STREAM     CONNECTED     12885    -                    
+unix  3      [ ]         STREAM     CONNECTED     12723    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     12919    -                    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    6549     -                    
+unix  3      [ ]         STREAM     CONNECTED     12933    470/lxsession        
+unix  3      [ ]         STREAM     CONNECTED     14373    -                    
+unix  3      [ ]         STREAM     CONNECTED     12999    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     12886    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     11575    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     14455    695/gvfsd            
+unix  3      [ ]         STREAM     CONNECTED     12720    479/dbus-daemon      
+unix  3      [ ]         DGRAM                    130      -                    
+unix  3      [ ]         DGRAM                    131      -                    
+unix  3      [ ]         STREAM     CONNECTED     13490    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     11859    -                    
+unix  3      [ ]         STREAM     CONNECTED     11860    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     12679    -                    /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    11571    -                    
+unix  3      [ ]         STREAM     CONNECTED     11573    -                    
+unix  3      [ ]         STREAM     CONNECTED     8162     -                    
+unix  3      [ ]         STREAM     CONNECTED     11436    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     11852    -                    /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    8089     -                    
+unix  3      [ ]         STREAM     CONNECTED     8164     -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     11464    -                    
+unix  2      [ ]         DGRAM                    9827     -                    
+unix  3      [ ]         STREAM     CONNECTED     13917    -                    
+unix  3      [ ]         STREAM     CONNECTED     14674    791/gvfs-mtp-volume  
+unix  3      [ ]         STREAM     CONNECTED     13762    720/lxpolkit         
+unix  3      [ ]         STREAM     CONNECTED     7071     -                    
+unix  3      [ ]         STREAM     CONNECTED     13916    837/lxterminal       
+unix  3      [ ]         STREAM     CONNECTED     13759    720/lxpolkit         
+unix  3      [ ]         STREAM     CONNECTED     6961     -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     14639    -                    
+unix  3      [ ]         STREAM     CONNECTED     12932    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     10095    -                    /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    23990    -                    
+unix  2      [ ]         DGRAM                    7097     -                    
+unix  3      [ ]         STREAM     CONNECTED     11916    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14699    -                    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     9746     -                    
+unix  3      [ ]         STREAM     CONNECTED     13913    837/lxterminal       
+unix  3      [ ]         STREAM     CONNECTED     13889    827/gvfsd-trash      @/dbus-vfs-daemon/socket-vA28zBou
+unix  3      [ ]         STREAM     CONNECTED     13692    700/gvfsd-fuse       
+unix  3      [ ]         STREAM     CONNECTED     13760    720/lxpolkit         
+unix  3      [ ]         STREAM     CONNECTED     11306    -                    
+unix  3      [ ]         STREAM     CONNECTED     13042    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     7148     -                    
+unix  3      [ ]         STREAM     CONNECTED     10096    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13406    -                    
+unix  3      [ ]         DGRAM                    9835     -                    
+unix  3      [ ]         DGRAM                    9834     -                    
+unix  3      [ ]         STREAM     CONNECTED     11435    -                    
+unix  3      [ ]         STREAM     CONNECTED     7144     -                    
+unix  3      [ ]         STREAM     CONNECTED     14540    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         DGRAM                    9833     -                    
+unix  3      [ ]         STREAM     CONNECTED     14698    723/pcmanfm          
+unix  3      [ ]         STREAM     CONNECTED     11955    756/menu-cached      /run/user/1000/menu-cached-:0
+unix  3      [ ]         STREAM     CONNECTED     12973    -                    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     7143     -                    
+unix  3      [ ]         STREAM     CONNECTED     13086    479/dbus-daemon      /run/user/1000/bus
+unix  2      [ ]         DGRAM                    7136     -                    
+unix  3      [ ]         STREAM     CONNECTED     13885    722/lxpanel          
+unix  3      [ ]         STREAM     CONNECTED     13474    479/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     6909     -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     13878    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     13880    791/gvfs-mtp-volume  
+unix  2      [ ]         DGRAM                    11373    -                    
+unix  3      [ ]         STREAM     CONNECTED     11142    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     10771    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     14641    782/gvfs-afc-volume  
+unix  3      [ ]         STREAM     CONNECTED     13444    462/systemd          
+unix  3      [ ]         STREAM     CONNECTED     11019    -                    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     9911     -                    
+unix  3      [ ]         STREAM     CONNECTED     14633    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     11539    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         DGRAM                    9836     -                    
+unix  3      [ ]         STREAM     CONNECTED     13869    -                    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    11031    -                    
+unix  3      [ ]         STREAM     CONNECTED     12374    -                    
+unix  3      [ ]         STREAM     CONNECTED     12365    -                    
+unix  3      [ ]         STREAM     CONNECTED     13041    782/gvfs-afc-volume  
+unix  2      [ ]         DGRAM                    11025    -                    
+unix  3      [ ]         STREAM     CONNECTED     14640    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     11024    -                    
+unix  3      [ ]         STREAM     CONNECTED     13764    723/pcmanfm          
+unix  3      [ ]         STREAM     CONNECTED     12685    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     25671    -                    
+unix  3      [ ]         STREAM     CONNECTED     13006    768/gvfs-udisks2-vo  
+unix  2      [ ]         DGRAM                    13000    -                    
+unix  3      [ ]         STREAM     CONNECTED     10134    -                    /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    12358    -                    
+unix  3      [ ]         STREAM     CONNECTED     14632    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14695    -                    /var/run/dhcpcd.unpriv.sock
+unix  3      [ ]         STREAM     CONNECTED     14418    -                    @/tmp/.X11-unix/X0
+unix  2      [ ]         DGRAM                    11006    -                    
+unix  2      [ ]         DGRAM                    13767    -                    
+unix  3      [ ]         STREAM     CONNECTED     13112    827/gvfsd-trash      
+unix  3      [ ]         STREAM     CONNECTED     10125    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13790    722/lxpanel          
+unix  3      [ ]         STREAM     CONNECTED     11767    470/lxsession        
+unix  3      [ ]         STREAM     CONNECTED     11958    479/dbus-daemon      /run/user/1000/bus
+unix  2      [ ]         DGRAM                    12366    -                    
+unix  3      [ ]         STREAM     CONNECTED     23762    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13769    722/lxpanel          
+unix  3      [ ]         STREAM     CONNECTED     12983    722/lxpanel          
+unix  3      [ ]         STREAM     CONNECTED     12984    -                    @/tmp/.X11-unix/X0
+unix  3      [ ]         DGRAM                    11116    462/systemd          
+unix  3      [ ]         DGRAM                    11117    462/systemd          
+unix  3      [ ]         STREAM     CONNECTED     12978    -                    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     13793    768/gvfs-udisks2-vo  
+unix  3      [ ]         STREAM     CONNECTED     13090    722/lxpanel          
+unix  3      [ ]         STREAM     CONNECTED     14694    -                    /var/run/dhcpcd.unpriv.sock
+unix  3      [ ]         STREAM     CONNECTED     9173     -                    
+unix  2      [ ]         DGRAM                    25665    -                    
+unix  3      [ ]         STREAM     CONNECTED     9176     -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     25664    -                    
+unix  3      [ ]         STREAM     CONNECTED     13089    722/lxpanel          
+unix  3      [ ]         STREAM     CONNECTED     13080    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     11498    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     24667    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     11866    479/dbus-daemon      /run/user/1000/bus
+unix  2      [ ]         DGRAM                    11102    462/systemd          
+unix  3      [ ]         STREAM     CONNECTED     12306    -                    
+unix  3      [ ]         STREAM     CONNECTED     10773    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     13079    787/gvfs-gphoto2-vo  
+unix  3      [ ]         STREAM     CONNECTED     13876    -                    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    11099    -                    
+unix  3      [ ]         STREAM     CONNECTED     13078    787/gvfs-gphoto2-vo  
+unix  3      [ ]         STREAM     CONNECTED     11095    462/systemd          
+unix  3      [ ]         STREAM     CONNECTED     12993    717/openbox          
+unix  3      [ ]         STREAM     CONNECTED     11768    470/lxsession        
+unix  3      [ ]         STREAM     CONNECTED     12914    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     12994    -                    @/tmp/.X11-unix/X0
+pi@DSLAB_Gateway:~ $ netstat -p
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 localhost:40850         localhost:43437         ESTABLISHED 1482/python         
+tcp        0      0 localhost:43437         localhost:40850         ESTABLISHED 1482/python         
+tcp        0      0 192.168.0.25:44881      th-in-f206.1e100.n:8883 ESTABLISHED 1482/python         
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name     Path
+unix  4      [ ]         DGRAM                    10848    -                    /var/run/wpa_supplicant/wlan0
+unix  2      [ ]         DGRAM                    11114    462/systemd          /run/user/1000/systemd/notify
+unix  2      [ ]         DGRAM                    13093    722/lxpanel          /tmp/dhcpcd-pi/libdhcpcd-wpa-722.0
+unix  3      [ ]         DGRAM                    126      -                    /run/systemd/notify
+unix  2      [ ]         DGRAM                    12671    -                    /var/run/wpa_supplicant/p2p-dev-wlan0
+unix  2      [ ]         DGRAM                    13094    722/lxpanel          /tmp/dhcpcd-pi/libdhcpcd-wpa-722.1
+unix  2      [ ]         DGRAM                    128      -                    /run/systemd/cgroups-agent
+unix  12     [ ]         DGRAM                    139      -                    /run/systemd/journal/dev-log
+unix  7      [ ]         DGRAM                    146      -                    /run/systemd/journal/socket
+unix  2      [ ]         DGRAM                    154      -                    /run/systemd/journal/syslog
+unix  3      [ ]         STREAM     CONNECTED     11861    723/pcmanfm          
+unix  3      [ ]         STREAM     CONNECTED     11144    462/systemd          
+unix  3      [ ]         STREAM     CONNECTED     10222    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     14467    -                    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     7076     -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     14614    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     10073    -                    
+unix  3      [ ]         STREAM     CONNECTED     11954    778/gvfs-goa-volume  
+unix  2      [ ]         DGRAM                    12859    -                    
+unix  2      [ ]         STREAM     CONNECTED     13925    837/lxterminal       /run/user/1000/.lxterminal-socket-:0.0
+unix  3      [ ]         STREAM     CONNECTED     10023    -                    /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                    8510     -                    
+unix  3      [ ]         STREAM     CONNECTED     10021    -                    
+unix  3      [ ]         STREAM     CONNECTED     11225    -                    
+unix  3      [ ]         STREAM     CONNECTED     12661    -                    
+unix  3      [ ]         STREAM     CONNECTED     11976    837/lxterminal       
+unix  3      [ ]         STREAM     CONNECTED     13008    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     12721    479/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     10094    -                    
+unix  3      [ ]         STREAM     CONNECTED     11977    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     14628    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     12980    722/lxpanel          
+unix  3      [ ]         STREAM     CONNECTED     10093    -                    
+unix  3      [ ]         STREAM     CONNECTED     11871    756/menu-cached      
+unix  3      [ ]         STREAM     CONNECTED     11907    768/gvfs-udisks2-vo  
+unix  3      [ ]         STREAM     CONNECTED     12981    -                    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     13863    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     12921    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     11564    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     11953    778/gvfs-goa-volume  
+unix  3      [ ]         DGRAM                    8511     -                    
+unix  2      [ ]         STREAM     CONNECTED     23770    837/lxterminal       /run/user/1000/.lxterminal-socket-:0.0
+unix  3      [ ]         STREAM     CONNECTED     14456    695/gvfsd            
+unix  3      [ ]         STREAM     CONNECTED     12885    -                    
+unix  3      [ ]         STREAM     CONNECTED     12723    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     12919    -                    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    6549     -                    
+unix  3      [ ]         STREAM     CONNECTED     12933    470/lxsession        
+unix  3      [ ]         STREAM     CONNECTED     14373    -                    
+unix  3      [ ]         STREAM     CONNECTED     12999    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     12886    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     11575    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     14455    695/gvfsd            
+unix  3      [ ]         STREAM     CONNECTED     12720    479/dbus-daemon      
+unix  3      [ ]         DGRAM                    130      -                    
+unix  3      [ ]         DGRAM                    131      -                    
+unix  3      [ ]         STREAM     CONNECTED     13490    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     11859    -                    
+unix  3      [ ]         STREAM     CONNECTED     11860    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     12679    -                    /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    11571    -                    
+unix  3      [ ]         STREAM     CONNECTED     11573    -                    
+unix  3      [ ]         STREAM     CONNECTED     8162     -                    
+unix  3      [ ]         STREAM     CONNECTED     11436    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     11852    -                    /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    8089     -                    
+unix  3      [ ]         STREAM     CONNECTED     8164     -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     11464    -                    
+unix  2      [ ]         DGRAM                    9827     -                    
+unix  3      [ ]         STREAM     CONNECTED     13917    -                    
+unix  3      [ ]         STREAM     CONNECTED     14674    791/gvfs-mtp-volume  
+unix  3      [ ]         STREAM     CONNECTED     13762    720/lxpolkit         
+unix  3      [ ]         STREAM     CONNECTED     7071     -                    
+unix  3      [ ]         STREAM     CONNECTED     13916    837/lxterminal       
+unix  3      [ ]         STREAM     CONNECTED     13759    720/lxpolkit         
+unix  3      [ ]         STREAM     CONNECTED     6961     -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     14639    -                    
+unix  3      [ ]         STREAM     CONNECTED     12932    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     10095    -                    /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    23990    -                    
+unix  2      [ ]         DGRAM                    7097     -                    
+unix  3      [ ]         STREAM     CONNECTED     11916    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14699    -                    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     9746     -                    
+unix  3      [ ]         STREAM     CONNECTED     13913    837/lxterminal       
+unix  3      [ ]         STREAM     CONNECTED     13889    827/gvfsd-trash      @/dbus-vfs-daemon/socket-vA28zBou
+unix  3      [ ]         STREAM     CONNECTED     13692    700/gvfsd-fuse       
+unix  3      [ ]         STREAM     CONNECTED     13760    720/lxpolkit         
+unix  3      [ ]         STREAM     CONNECTED     11306    -                    
+unix  3      [ ]         STREAM     CONNECTED     13042    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     7148     -                    
+unix  3      [ ]         STREAM     CONNECTED     10096    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13406    -                    
+unix  3      [ ]         DGRAM                    9835     -                    
+unix  3      [ ]         DGRAM                    9834     -                    
+unix  3      [ ]         STREAM     CONNECTED     11435    -                    
+unix  3      [ ]         STREAM     CONNECTED     7144     -                    
+unix  3      [ ]         STREAM     CONNECTED     14540    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         DGRAM                    9833     -                    
+unix  3      [ ]         STREAM     CONNECTED     14698    723/pcmanfm          
+unix  3      [ ]         STREAM     CONNECTED     11955    756/menu-cached      /run/user/1000/menu-cached-:0
+unix  3      [ ]         STREAM     CONNECTED     12973    -                    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     7143     -                    
+unix  3      [ ]         STREAM     CONNECTED     13086    479/dbus-daemon      /run/user/1000/bus
+unix  2      [ ]         DGRAM                    7136     -                    
+unix  3      [ ]         STREAM     CONNECTED     13885    722/lxpanel          
+unix  3      [ ]         STREAM     CONNECTED     13474    479/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     6909     -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     13878    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     13880    791/gvfs-mtp-volume  
+unix  2      [ ]         DGRAM                    11373    -                    
+unix  3      [ ]         STREAM     CONNECTED     11142    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     10771    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     14641    782/gvfs-afc-volume  
+unix  3      [ ]         STREAM     CONNECTED     13444    462/systemd          
+unix  3      [ ]         STREAM     CONNECTED     11019    -                    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     9911     -                    
+unix  3      [ ]         STREAM     CONNECTED     14633    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     11539    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         DGRAM                    9836     -                    
+unix  3      [ ]         STREAM     CONNECTED     13869    -                    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    11031    -                    
+unix  3      [ ]         STREAM     CONNECTED     12374    -                    
+unix  3      [ ]         STREAM     CONNECTED     12365    -                    
+unix  3      [ ]         STREAM     CONNECTED     13041    782/gvfs-afc-volume  
+unix  2      [ ]         DGRAM                    11025    -                    
+unix  3      [ ]         STREAM     CONNECTED     14640    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     11024    -                    
+unix  3      [ ]         STREAM     CONNECTED     13764    723/pcmanfm          
+unix  3      [ ]         STREAM     CONNECTED     12685    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     25671    -                    
+unix  3      [ ]         STREAM     CONNECTED     13006    768/gvfs-udisks2-vo  
+unix  2      [ ]         DGRAM                    13000    -                    
+unix  3      [ ]         STREAM     CONNECTED     10134    -                    /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    12358    -                    
+unix  3      [ ]         STREAM     CONNECTED     14632    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14695    -                    /var/run/dhcpcd.unpriv.sock
+unix  3      [ ]         STREAM     CONNECTED     14418    -                    @/tmp/.X11-unix/X0
+unix  2      [ ]         DGRAM                    11006    -                    
+unix  2      [ ]         DGRAM                    13767    -                    
+unix  3      [ ]         STREAM     CONNECTED     13112    827/gvfsd-trash      
+unix  3      [ ]         STREAM     CONNECTED     10125    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13790    722/lxpanel          
+unix  3      [ ]         STREAM     CONNECTED     11767    470/lxsession        
+unix  3      [ ]         STREAM     CONNECTED     11958    479/dbus-daemon      /run/user/1000/bus
+unix  2      [ ]         DGRAM                    12366    -                    
+unix  3      [ ]         STREAM     CONNECTED     23762    -                    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13769    722/lxpanel          
+unix  3      [ ]         STREAM     CONNECTED     12983    722/lxpanel          
+unix  3      [ ]         STREAM     CONNECTED     12984    -                    @/tmp/.X11-unix/X0
+unix  3      [ ]         DGRAM                    11116    462/systemd          
+unix  3      [ ]         DGRAM                    11117    462/systemd          
+unix  3      [ ]         STREAM     CONNECTED     12978    -                    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     13793    768/gvfs-udisks2-vo  
+unix  3      [ ]         STREAM     CONNECTED     13090    722/lxpanel          
+unix  3      [ ]         STREAM     CONNECTED     14694    -                    /var/run/dhcpcd.unpriv.sock
+unix  3      [ ]         STREAM     CONNECTED     9173     -                    
+unix  2      [ ]         DGRAM                    25665    -                    
+unix  3      [ ]         STREAM     CONNECTED     9176     -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     25664    -                    
+unix  3      [ ]         STREAM     CONNECTED     13089    722/lxpanel          
+unix  3      [ ]         STREAM     CONNECTED     13080    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     11498    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     24667    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     11866    479/dbus-daemon      /run/user/1000/bus
+unix  2      [ ]         DGRAM                    11102    462/systemd          
+unix  3      [ ]         STREAM     CONNECTED     12306    -                    
+unix  3      [ ]         STREAM     CONNECTED     10773    -                    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     13079    787/gvfs-gphoto2-vo  
+unix  3      [ ]         STREAM     CONNECTED     13876    -                    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    11099    -                    
+unix  3      [ ]         STREAM     CONNECTED     13078    787/gvfs-gphoto2-vo  
+unix  3      [ ]         STREAM     CONNECTED     11095    462/systemd          
+unix  3      [ ]         STREAM     CONNECTED     12993    717/openbox          
+unix  3      [ ]         STREAM     CONNECTED     11768    470/lxsession        
+unix  3      [ ]         STREAM     CONNECTED     12914    479/dbus-daemon      /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     12994    -                    @/tmp/.X11-unix/X0
+pi@DSLAB_Gateway:~ $ 
