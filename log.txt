@@ -370,3 +370,64 @@ unix  3      [ ]         STREAM     CONNECTED     11768    470/lxsession
 unix  3      [ ]         STREAM     CONNECTED     12914    479/dbus-daemon      /run/user/1000/bus
 unix  3      [ ]         STREAM     CONNECTED     12994    -                    @/tmp/.X11-unix/X0
 pi@DSLAB_Gateway:~ $ 
+
+
+
+pi@DSLAB_Gateway:~ $ netstat
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 192.168.0.25:54186      nrt13s49-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:35350      nrt12s22-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44834      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44826      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:52418      syd09s06-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:38348      nrt13s50-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:41766      nrt12s15-in-f74.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44784      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44806      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44858      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44850      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44810      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:47200      nrt13s51-in-f106.:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44830      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44788      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:35342      nrt12s22-in-f10.1:https TIME_WAIT  
+tcp        0      0 localhost:40850         localhost:43437         ESTABLISHED
+tcp        0      0 192.168.0.25:42652      nrt12s13-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:40812      nrt12s23-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44814      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:42978      lb-192-30-253-124:https ESTABLISHED
+tcp        0      0 192.168.0.25:44792      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44796      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:42702      nrt12s13-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:33472      151.101.72.133:https    ESTABLISHED
+tcp        0      0 192.168.0.25:44780      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44842      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:50242      nrt20s02-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:50200      nrt20s02-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:52406      syd09s06-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:49298      nrt12s14-in-f10.1:https TIME_WAIT  
+tcp        0      0 localhost:43437         localhost:40850         ESTABLISHED
+tcp        0      0 192.168.0.25:47228      nrt13s51-in-f106.:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44846      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:49326      nrt12s14-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:41824      nrt12s15-in-f74.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44838      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:42714      nrt12s13-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:41828      nrt12s02-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44818      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:47214      nrt20s09-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:47210      nrt20s09-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:52476      syd09s06-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44800      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44854      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:41906      nrt12s02-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:53552      nrt13s48-in-f14.1:https ESTABLISHED
+tcp        0      0 192.168.0.25:44822      nrt12s22-in-f13.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:44881      th-in-f206.1e100.n:8883 ESTABLISHED
+tcp        0      0 192.168.0.25:46204      104.31.91.96:https      ESTABLISHED
+tcp        0      0 192.168.0.25:58568      nrt20s09-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:40842      nrt12s23-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:46204      104.31.91.96:https      ESTABLISHED
+tcp        0      0 192.168.0.25:58568      nrt20s09-in-f10.1:https TIME_WAIT  
+tcp        0      0 192.168.0.25:40842      nrt12s23-in-f10.1:https TIME_WAIT  
