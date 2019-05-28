@@ -2,3 +2,12 @@ https://accounts.google.com/o/oauth2/v2/auth?scope=https%3A%2F%2Fwww.googleapis.
 
 
 code=복사한 코드&client_id=부여된 client ID&client_secret= 부여된 client secret&redirect_uri=http://localhost:8080&grant_type=authorization_code
+
+
+#SELECT CAST(TRIM(payloadString,"temp=") as INT64) as tempature , timestamp as time FROM `dslab-samsung-190422.temp.pubsub_error_records` ORDER BY timestamp DESC LIMIT 1000
+
+SELECT payloadString as Payloads, STRING(timestamp, "Asia/Seoul") as time
+FROM `dslab-samsung-190422.temp.pubsub_error_records`
+WHERE payloadString LIKE "%"
+ORDER BY timestamp DESC
+LIMIT 1000
